@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on signin[[ChromeDriver: chrome on WINDOWS (1f6ea13c23101f9ff5c23eb5933653b5)] -> link text: Sign In]]]>
+    </line>
+    <line>
+      <![CDATA[Verify text[[ChromeDriver: chrome on WINDOWS (1f6ea13c23101f9ff5c23eb5933653b5)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-12T10:41:23 GMT" name="sanity Suite" finished-at="2022-12-12T10:41:44 GMT" duration-ms="20942">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.verifyUserShouldNavigaateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" name="verifyUserShouldNavigaateToLoginPageSuccessfully" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginPageTest.verifyUserShouldNavigaateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" name="verifyUserShouldNavigaateToLoginPageSuccessfully" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-12-12T10:41:23 GMT" name="Sanity Login Test" finished-at="2022-12-12T10:41:44 GMT" duration-ms="20942">
+      <class name="com.ultimateqa.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" started-at="2022-12-12T10:41:23 GMT" name="setUp" finished-at="2022-12-12T10:41:41 GMT" duration-ms="18339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIT()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" started-at="2022-12-12T10:41:41 GMT" name="inIT" finished-at="2022-12-12T10:41:41 GMT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method signature="verifyUserShouldNavigaateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" started-at="2022-12-12T10:41:41 GMT" name="verifyUserShouldNavigaateToLoginPageSuccessfully" finished-at="2022-12-12T10:41:43 GMT" duration-ms="2259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on signin[[ChromeDriver: chrome on WINDOWS (1f6ea13c23101f9ff5c23eb5933653b5)] -> link text: Sign In]]]>
+            </line>
+            <line>
+              <![CDATA[Verify text[[ChromeDriver: chrome on WINDOWS (1f6ea13c23101f9ff5c23eb5933653b5)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigaateToLoginPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@515aebb0]" started-at="2022-12-12T10:41:43 GMT" name="tearDown" finished-at="2022-12-12T10:41:44 GMT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.testsuite.LoginPageTest -->
+    </test> <!-- Sanity Login Test -->
+  </suite> <!-- sanity Suite -->
+</testng-results>
